@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test</fullName>
+    <active>true</active>
+    <description>Test validation rule for salesforce dx development workflow</description>
+    <errorConditionFormula>AccountNumber = &apos;1000&apos;</errorConditionFormula>
+    <errorMessage>Account number can&apos;t be greater than 999</errorMessage>
+</ValidationRule>
